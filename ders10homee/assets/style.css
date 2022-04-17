@@ -1,0 +1,392 @@
+body {
+  width: 1100px;
+  height: 5000px;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.container {
+  margin: 59px 99px;
+  display: flex;
+  justify-content: space-between;
+}
+/* 
+============
+=LOGO START=
+============
+*/
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  font-style: normal;
+}
+
+.logo_get {
+  color: #2b2c43;
+}
+.logo_raw {
+  color: #2e47bd;
+}
+/* 
+============
+=LOGO END=
+============
+*/
+
+/* 
+============
+=MENU START=
+============
+*/
+.menu_nav {
+  margin-left: 110px;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: #2b2c43;
+}
+
+.menu_nav li {
+  display: inline;
+  margin: 20px;
+  font-family: "Lato";
+  font-style: normal;
+}
+
+#home_a {
+  color: #fe753e;
+
+  font-weight: 700;
+}
+
+/* 
+============
+=MENU END=
+============
+*/
+
+/* 
+===============
+=CONTACT START=
+===============
+*/
+.contact {
+  width: 130px;
+  height: 50px;
+  background-color: #fe753e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+/* 
+=============
+=CONTACT END=
+=============
+*/
+
+/* 
+=====================
+=HEAD_CONTENT START==
+=====================
+*/
+
+.rectangle1 {
+  position: relative;
+  background-color: #f8f8f8;
+  z-index: -20;
+  width: 604px;
+  height: 800px;
+  float: right;
+  top: -180px;
+}
+
+.rectangle2 {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  z-index: -20;
+  margin-bottom: 0px;
+  float: right;
+  top: -715px;
+  padding-right: 50px;
+}
+
+.rectangle2_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.res_enjoy {
+  padding: 9%;
+  font-style: normal;
+}
+
+.restaurant {
+  color: #fe753e;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.enjoy {
+  position: relative;
+  width: 900px;
+  height: 15px;
+  font-size: 40px;
+  letter-spacing: 0.02em;
+}
+
+.we_make {
+  width: 600px;
+  position: relative;
+  padding: 9%;
+  font-style: normal;
+}
+/* 
+=====================
+=HEAD_CONTENT START==
+=====================
+*/
+
+/* 
+=================
+=ABOUT_US START==
+=================
+*/
+
+.about {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.about_us {
+  color: #fe753e;
+  font-family: "Lato";
+}
+
+.the_best {
+  font-family: "Abril Fatface";
+}
+
+.subt {
+  font-family: "Lato";
+}
+
+.about_img {
+  width: 350px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.about_img_file {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.about_content {
+  position: relative;
+  width: 35%;
+  padding-left: 15%;
+}
+
+.find_button {
+  background-color: #2e47bd;
+  color: white;
+  width: 160px;
+  height: 55px;
+  border-radius: 5px;
+  font-family: "Lato";
+}
+
+/* 
+===============
+=ABOUT_US END==
+===============
+*/
+
+/* 
+=================
+=BEST_MENU START=
+=================
+*/
+.best_menu {
+  width: 100%;
+  height: 949px;
+  background-color: #f8f8f8;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.columns {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.column1 {
+  width: 319px;
+  height: 408px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.for_img1 {
+  width: 100%;
+  height: 50%;
+  z-index: 10;
+}
+
+.column1_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.column1_info {
+  position: relative;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: -10px;
+  z-index: 20;
+  background-color: white;
+  text-align: start;
+  padding-left: 20px;
+  font-family: "Lato";
+  font-style: normal;
+}
+
+.column1_subt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  padding-top: 8px;
+}
+
+.columns a {
+  color: #2e47bd;
+}
+
+.read_more {
+  padding-top: 8px;
+}
+
+.column2 {
+  width: 319px;
+  height: 408px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.for_img2 {
+  width: 100%;
+  height: 50%;
+  z-index: 10;
+}
+
+.column2_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.column2_info {
+  position: relative;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: -10px;
+  z-index: 20;
+  background-color: white;
+  text-align: start;
+  padding-left: 20px;
+  font-family: "Lato";
+  font-style: normal;
+}
+
+.column2_subt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  padding-top: 8px;
+}
+
+.read_more {
+  padding-top: 8px;
+}
+
+.column3 {
+  width: 319px;
+  height: 408px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.for_img3 {
+  width: 100%;
+  height: 50%;
+  z-index: 10;
+}
+
+.column3_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.column3_info {
+  position: relative;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: -10px;
+  z-index: 20;
+  background-color: white;
+  text-align: start;
+  padding-left: 20px;
+  font-family: "Lato";
+  font-style: normal;
+}
+
+.column1_subt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  padding-top: 8px;
+}
+
+.read_more {
+  padding-top: 8px;
+}
+
+.for_line1 {
+  width: 34px;
+  border: 2px solid #2b2c43;
+  background-color: #2b2c43;
+  display: block;
+}
+
+.for_line2 {
+  width: 136px;
+  border: 2px solid #2b2c43;
+  background-color: #2b2c43;
+
+  opacity: 0.1;
+  display: block;
+}
+/* 
+================
+=BEST_MENU END=
+================
+*/
